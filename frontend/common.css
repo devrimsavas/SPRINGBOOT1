@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table   {
+    border:1px, black, solid;
+    border-collapse: collapse;
+    width:30%;
+    height:auto;
+    margin-top:40px;
+    margin:auto;
+    padding-top:20px;
+    
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+button {
+    background-color: azure;
+    width:100px;
+    height:30px;
+    gap:5px;
+
+}
+
+button:hover {
+    background-color: blanchedalmond;
+}
+
+#addstudentform {
+    display:flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    gap: 8px;
+    margin-bottom: 10px;
+    width:60%;
+    margin:auto;
+    border-radius: 10px;
+    
+}
+#addstudentform input {
+    width:200px;
+    height:20px;
+    border-radius:5px;
+}
+#addstudentform label {
+    margin-bottom:1px;
+}
+
+
+
